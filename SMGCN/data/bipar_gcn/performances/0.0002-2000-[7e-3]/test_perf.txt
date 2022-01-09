@@ -1,0 +1,1007 @@
+args settings is: 
+  Namespace(Ks='[5,10,20]', adj_type='norm', alg_type='ngcf', batch_size=1024, data_path='datasets/TCM1', dataset='TCM1', epoch=2000, gpu_id=0, herb_threshold=40, hidden_size='[64, 128]', initial_embed_size=64, lr=0.0002, mess_dropout='[0.0, 0.0, 0.0]', model_type='smgcn', node_dropout='[0.0, 0.0, 0.0]', node_dropout_flag=0, pretrain=0, regs='[7e-3]', sympt_threshold=5, verbose=1, weight_size='[128, 256]', weights_path='')
+Epoch 9 [time=0.8s + 18.8s]:
+ train:total_loss=12289.85706, embed_loss=12280.01343, reg_loss=9.84360 
+test: precision=[0.01307	0.01488	0.01519], recall=[0.01076	0.02331	0.04495], ndcg=[0.03158	0.05455	0.08838], test_loss=2234.27548
+
+
+ Epoch 19 [time=0.8s + 17.9s]:
+ train:total_loss=10367.31430, embed_loss=10357.50604, reg_loss=9.80828 
+test: precision=[0.01650	0.01943	0.01976], recall=[0.01360	0.02966	0.05752], ndcg=[0.03935	0.06883	0.11146], test_loss=1914.40033
+
+
+ Epoch 29 [time=0.8s + 18.5s]:
+ train:total_loss=9616.19156, embed_loss=9606.41055, reg_loss=9.78098 
+test: precision=[0.01837	0.02214	0.02294], recall=[0.01504	0.03255	0.06743], ndcg=[0.04348	0.07698	0.12563], test_loss=1782.75076
+
+
+ Epoch 39 [time=0.8s + 18.2s]:
+ train:total_loss=8903.73782, embed_loss=8893.97888, reg_loss=9.75894 
+test: precision=[0.02048	0.02506	0.02579], recall=[0.01679	0.03639	0.07598], ndcg=[0.04929	0.08654	0.14037], test_loss=1709.46138
+
+
+ Epoch 49 [time=0.8s + 17.9s]:
+ train:total_loss=8776.55099, embed_loss=8766.81046, reg_loss=9.74053 
+test: precision=[0.02311	0.02744	0.02776], recall=[0.01823	0.04017	0.08244], ndcg=[0.05477	0.09496	0.15096], test_loss=1662.69408
+
+
+ Epoch 59 [time=0.8s + 18.3s]:
+ train:total_loss=8657.96652, embed_loss=8648.24170, reg_loss=9.72475 
+test: precision=[0.02965	0.03034	0.03006], recall=[0.02257	0.04432	0.08891], ndcg=[0.06744	0.10531	0.16366], test_loss=1631.20244
+
+
+ Epoch 69 [time=0.8s + 18.4s]:
+ train:total_loss=8275.69138, embed_loss=8265.98041, reg_loss=9.71104 
+test: precision=[0.03483	0.03347	0.03236], recall=[0.02634	0.04878	0.09476], ndcg=[0.07682	0.11560	0.17549], test_loss=1608.42917
+
+
+ Epoch 79 [time=0.8s + 18.6s]:
+ train:total_loss=8582.74020, embed_loss=8573.04132, reg_loss=9.69885 
+test: precision=[0.03674	0.03652	0.03457], recall=[0.02760	0.05305	0.10072], ndcg=[0.08143	0.12456	0.18604], test_loss=1591.25795
+
+
+ Epoch 89 [time=0.8s + 18.4s]:
+ train:total_loss=8434.47206, embed_loss=8424.78419, reg_loss=9.68789 
+test: precision=[0.04025	0.03963	0.03738], recall=[0.02973	0.05672	0.10966], ndcg=[0.08750	0.13262	0.19801], test_loss=1577.85031
+
+
+ Epoch 99 [time=0.7s + 18.1s]:
+ train:total_loss=8206.32922, embed_loss=8196.65121, reg_loss=9.67801 
+test: precision=[0.04379	0.04349	0.04008], recall=[0.03185	0.06272	0.11616], ndcg=[0.09255	0.14130	0.20794], test_loss=1567.71364
+
+
+ Epoch 109 [time=0.8s + 17.8s]:
+ train:total_loss=8281.21292, embed_loss=8271.54396, reg_loss=9.66896 
+test: precision=[0.04638	0.04495	0.04236], recall=[0.03329	0.06468	0.12247], ndcg=[0.09707	0.14548	0.21689], test_loss=1558.40144
+
+
+ Epoch 119 [time=0.8s + 18.1s]:
+ train:total_loss=8038.05724, embed_loss=8028.39664, reg_loss=9.66059 
+test: precision=[0.04965	0.04734	0.04480], recall=[0.03564	0.06817	0.12949], ndcg=[0.10271	0.15136	0.22576], test_loss=1551.17360
+
+
+ Epoch 129 [time=0.8s + 18.0s]:
+ train:total_loss=8152.89301, embed_loss=8143.24016, reg_loss=9.65289 
+test: precision=[0.05148	0.05129	0.04752], recall=[0.03677	0.07407	0.13676], ndcg=[0.10349	0.15729	0.23269], test_loss=1545.03069
+
+
+ Epoch 139 [time=0.8s + 18.0s]:
+ train:total_loss=7918.81160, embed_loss=7909.16591, reg_loss=9.64569 
+test: precision=[0.05316	0.05405	0.05030], recall=[0.03771	0.07864	0.14527], ndcg=[0.10436	0.16120	0.23986], test_loss=1539.63789
+
+
+ Epoch 149 [time=0.8s + 18.1s]:
+ train:total_loss=8087.29147, embed_loss=8077.65259, reg_loss=9.63897 
+test: precision=[0.05427	0.05569	0.05255], recall=[0.03813	0.08107	0.15156], ndcg=[0.10415	0.16258	0.24493], test_loss=1535.18109
+
+
+ Epoch 159 [time=0.8s + 18.0s]:
+ train:total_loss=8409.27483, embed_loss=8399.64227, reg_loss=9.63266 
+test: precision=[0.05519	0.05664	0.05461], recall=[0.03874	0.08207	0.15646], ndcg=[0.10592	0.16442	0.25057], test_loss=1531.17131
+
+
+ Epoch 169 [time=0.8s + 18.4s]:
+ train:total_loss=8175.09952, embed_loss=8165.47279, reg_loss=9.62672 
+test: precision=[0.05639	0.05830	0.05743], recall=[0.03988	0.08437	0.16544], ndcg=[0.10523	0.16504	0.25593], test_loss=1527.57945
+
+
+ Epoch 179 [time=0.8s + 18.1s]:
+ train:total_loss=8084.19186, embed_loss=8074.57089, reg_loss=9.62110 
+test: precision=[0.05774	0.05951	0.06043], recall=[0.04085	0.08676	0.17302], ndcg=[0.10595	0.16635	0.26348], test_loss=1524.67130
+
+
+ Epoch 189 [time=0.8s + 18.4s]:
+ train:total_loss=8090.43774, embed_loss=8080.82207, reg_loss=9.61581 
+test: precision=[0.05898	0.06095	0.06224], recall=[0.04197	0.08894	0.17893], ndcg=[0.10595	0.16703	0.26666], test_loss=1521.72453
+
+
+ Epoch 199 [time=0.8s + 17.7s]:
+ train:total_loss=8006.48830, embed_loss=7996.87743, reg_loss=9.61079 
+test: precision=[0.05997	0.06308	0.06405], recall=[0.04252	0.09163	0.18252], ndcg=[0.10701	0.17004	0.27053], test_loss=1520.33932
+
+
+ Epoch 209 [time=0.8s + 18.1s]:
+ train:total_loss=7879.95074, embed_loss=7870.34482, reg_loss=9.60603 
+test: precision=[0.06224	0.06537	0.06651], recall=[0.04391	0.09484	0.18942], ndcg=[0.10802	0.17302	0.27684], test_loss=1516.97568
+
+
+ Epoch 219 [time=0.8s + 17.8s]:
+ train:total_loss=8104.98862, embed_loss=8095.38715, reg_loss=9.60149 
+test: precision=[0.06483	0.06818	0.06911], recall=[0.04495	0.09908	0.19679], ndcg=[0.10892	0.17620	0.28240], test_loss=1515.16431
+
+
+ Epoch 229 [time=0.8s + 17.6s]:
+ train:total_loss=7929.44987, embed_loss=7919.85278, reg_loss=9.59721 
+test: precision=[0.06551	0.07035	0.07035], recall=[0.04530	0.10244	0.20061], ndcg=[0.11018	0.18132	0.28812], test_loss=1513.47249
+
+
+ Epoch 239 [time=0.8s + 17.9s]:
+ train:total_loss=8037.12788, embed_loss=8027.53468, reg_loss=9.59314 
+test: precision=[0.06651	0.07237	0.07202], recall=[0.04542	0.10398	0.20500], ndcg=[0.10958	0.18304	0.29162], test_loss=1512.42381
+
+
+ Epoch 249 [time=0.8s + 18.0s]:
+ train:total_loss=8002.64388, embed_loss=7993.05475, reg_loss=9.58929 
+test: precision=[0.06942	0.07786	0.07443], recall=[0.04778	0.11148	0.21235], ndcg=[0.11152	0.19224	0.29743], test_loss=1510.06137
+
+
+ Epoch 259 [time=0.8s + 18.2s]:
+ train:total_loss=7926.06664, embed_loss=7916.48108, reg_loss=9.58570 
+test: precision=[0.07197	0.07996	0.07551], recall=[0.04926	0.11457	0.21529], ndcg=[0.11495	0.19688	0.30208], test_loss=1508.84477
+
+
+ Epoch 269 [time=0.8s + 18.1s]:
+ train:total_loss=8004.92323, embed_loss=7995.34117, reg_loss=9.58228 
+test: precision=[0.07260	0.08193	0.07672], recall=[0.04940	0.11730	0.21887], ndcg=[0.11540	0.20079	0.30568], test_loss=1507.47765
+
+
+ Epoch 279 [time=0.8s + 18.0s]:
+ train:total_loss=8023.69865, embed_loss=8014.11937, reg_loss=9.57905 
+test: precision=[0.07488	0.08396	0.07770], recall=[0.05061	0.11975	0.22153], ndcg=[0.11884	0.20488	0.30921], test_loss=1506.51624
+
+
+ Epoch 289 [time=0.8s + 18.4s]:
+ train:total_loss=7804.22827, embed_loss=7794.65240, reg_loss=9.57599 
+test: precision=[0.08300	0.08717	0.07893], recall=[0.05670	0.12473	0.22450], ndcg=[0.12960	0.21163	0.31325], test_loss=1505.40887
+
+
+ Epoch 299 [time=0.8s + 18.6s]:
+ train:total_loss=8025.28949, embed_loss=8015.71634, reg_loss=9.57310 
+test: precision=[0.08428	0.08946	0.07969], recall=[0.05754	0.12709	0.22600], ndcg=[0.13313	0.21776	0.31807], test_loss=1504.98401
+
+
+ Epoch 309 [time=0.8s + 18.8s]:
+ train:total_loss=7845.38474, embed_loss=7835.81424, reg_loss=9.57039 
+test: precision=[0.08699	0.09058	0.08029], recall=[0.05956	0.12858	0.22748], ndcg=[0.13841	0.22227	0.32231], test_loss=1503.78818
+
+
+ Epoch 319 [time=0.8s + 18.6s]:
+ train:total_loss=8028.73259, embed_loss=8019.16475, reg_loss=9.56784 
+test: precision=[0.08882	0.09189	0.08167], recall=[0.06071	0.13063	0.23098], ndcg=[0.14171	0.22596	0.32689], test_loss=1502.98792
+
+
+ Epoch 329 [time=0.8s + 18.8s]:
+ train:total_loss=8092.99094, embed_loss=8083.42569, reg_loss=9.56544 
+test: precision=[0.09097	0.09261	0.08276], recall=[0.06197	0.13096	0.23357], ndcg=[0.14498	0.22805	0.33029], test_loss=1502.27066
+
+
+ Epoch 339 [time=0.8s + 18.3s]:
+ train:total_loss=7789.25308, embed_loss=7779.68974, reg_loss=9.56320 
+test: precision=[0.09348	0.09464	0.08396], recall=[0.06356	0.13446	0.23656], ndcg=[0.14852	0.23257	0.33366], test_loss=1501.59602
+
+
+ Epoch 349 [time=0.8s + 18.2s]:
+ train:total_loss=7772.62700, embed_loss=7763.06609, reg_loss=9.56110 
+test: precision=[0.09512	0.09600	0.08523], recall=[0.06466	0.13659	0.23955], ndcg=[0.15147	0.23578	0.33731], test_loss=1501.02303
+
+
+ Epoch 359 [time=0.8s + 18.7s]:
+ train:total_loss=8033.34520, embed_loss=8023.78619, reg_loss=9.55914 
+test: precision=[0.09727	0.09655	0.08625], recall=[0.06655	0.13728	0.24186], ndcg=[0.15627	0.23902	0.34167], test_loss=1500.57541
+
+
+ Epoch 369 [time=0.8s + 18.4s]:
+ train:total_loss=7905.79893, embed_loss=7896.24171, reg_loss=9.55731 
+test: precision=[0.09954	0.09757	0.08731], recall=[0.06782	0.13877	0.24449], ndcg=[0.16097	0.24296	0.34596], test_loss=1500.10921
+
+
+ Epoch 379 [time=0.8s + 18.8s]:
+ train:total_loss=7926.00789, embed_loss=7916.45244, reg_loss=9.55559 
+test: precision=[0.10197	0.09847	0.08847], recall=[0.06976	0.14025	0.24686], ndcg=[0.16583	0.24667	0.35030], test_loss=1499.61766
+
+
+ Epoch 389 [time=0.8s + 18.5s]:
+ train:total_loss=7875.48547, embed_loss=7865.93169, reg_loss=9.55399 
+test: precision=[0.10576	0.09926	0.08929], recall=[0.07252	0.14124	0.24929], ndcg=[0.17272	0.25137	0.35506], test_loss=1499.25140
+
+
+ Epoch 399 [time=0.8s + 18.8s]:
+ train:total_loss=7944.90419, embed_loss=7935.35147, reg_loss=9.55252 
+test: precision=[0.10783	0.09978	0.09007], recall=[0.07367	0.14198	0.25109], ndcg=[0.17578	0.25319	0.35741], test_loss=1498.87282
+
+
+ Epoch 409 [time=0.8s + 18.7s]:
+ train:total_loss=7934.33258, embed_loss=7924.78154, reg_loss=9.55118 
+test: precision=[0.11114	0.10173	0.09068], recall=[0.07584	0.14521	0.25262], ndcg=[0.18230	0.26012	0.36198], test_loss=1498.84154
+
+
+ Epoch 419 [time=0.8s + 18.5s]:
+ train:total_loss=7768.25595, embed_loss=7758.70584, reg_loss=9.54994 
+test: precision=[0.11305	0.10245	0.09157], recall=[0.07755	0.14650	0.25471], ndcg=[0.19215	0.26919	0.37149], test_loss=1498.27904
+
+
+ Epoch 429 [time=0.8s + 17.7s]:
+ train:total_loss=7970.17233, embed_loss=7960.62344, reg_loss=9.54883 
+test: precision=[0.11413	0.10297	0.09185], recall=[0.07792	0.14724	0.25548], ndcg=[0.19540	0.27244	0.37467], test_loss=1498.10187
+
+
+ Epoch 439 [time=0.8s + 17.9s]:
+ train:total_loss=7919.36465, embed_loss=7909.81708, reg_loss=9.54780 
+test: precision=[0.11492	0.10331	0.09233], recall=[0.07856	0.14782	0.25670], ndcg=[0.19838	0.27548	0.37811], test_loss=1497.81119
+
+
+ Epoch 449 [time=0.8s + 18.0s]:
+ train:total_loss=7728.86934, embed_loss=7719.32263, reg_loss=9.54686 
+test: precision=[0.11548	0.10349	0.09287], recall=[0.07899	0.14797	0.25817], ndcg=[0.20044	0.27726	0.38083], test_loss=1497.62692
+
+
+ Epoch 459 [time=0.8s + 17.9s]:
+ train:total_loss=7867.48936, embed_loss=7857.94354, reg_loss=9.54599 
+test: precision=[0.11807	0.10365	0.09387], recall=[0.08105	0.14808	0.26074], ndcg=[0.20227	0.27655	0.38197], test_loss=1497.54312
+
+
+ Epoch 469 [time=0.8s + 18.1s]:
+ train:total_loss=7918.40639, embed_loss=7908.86150, reg_loss=9.54521 
+test: precision=[0.12074	0.10371	0.09438], recall=[0.08309	0.14836	0.26188], ndcg=[0.20678	0.27853	0.38475], test_loss=1497.15814
+
+
+ Epoch 479 [time=0.8s + 18.5s]:
+ train:total_loss=7670.53352, embed_loss=7660.98886, reg_loss=9.54450 
+test: precision=[0.12293	0.10395	0.09472], recall=[0.08495	0.14849	0.26256], ndcg=[0.21029	0.28015	0.38660], test_loss=1497.06335
+
+
+ Epoch 489 [time=0.8s + 18.1s]:
+ train:total_loss=7806.80824, embed_loss=7797.26430, reg_loss=9.54385 
+test: precision=[0.12453	0.10412	0.09512], recall=[0.08669	0.14818	0.26378], ndcg=[0.21364	0.28181	0.38902], test_loss=1496.84846
+
+
+ Epoch 499 [time=0.8s + 17.7s]:
+ train:total_loss=7801.13821, embed_loss=7791.59515, reg_loss=9.54325 
+test: precision=[0.12664	0.10454	0.09575], recall=[0.08829	0.14877	0.26530], ndcg=[0.21535	0.28235	0.39014], test_loss=1496.72244
+
+
+ Epoch 509 [time=0.8s + 17.9s]:
+ train:total_loss=7779.24403, embed_loss=7769.70108, reg_loss=9.54271 
+test: precision=[0.12959	0.10472	0.09594], recall=[0.09049	0.14906	0.26580], ndcg=[0.21983	0.28436	0.39233], test_loss=1496.59610
+
+
+ Epoch 519 [time=0.8s + 18.3s]:
+ train:total_loss=8021.58008, embed_loss=8012.03790, reg_loss=9.54223 
+test: precision=[0.13146	0.10504	0.09618], recall=[0.09189	0.14950	0.26638], ndcg=[0.22189	0.28505	0.39313], test_loss=1496.50423
+
+
+ Epoch 529 [time=0.8s + 18.1s]:
+ train:total_loss=8077.12239, embed_loss=8067.58025, reg_loss=9.54179 
+test: precision=[0.13206	0.10534	0.09639], recall=[0.09243	0.14980	0.26692], ndcg=[0.22338	0.28631	0.39429], test_loss=1496.41347
+
+
+ Epoch 539 [time=0.8s + 18.6s]:
+ train:total_loss=8106.62712, embed_loss=8097.08583, reg_loss=9.54140 
+test: precision=[0.13222	0.10544	0.09659], recall=[0.09249	0.14989	0.26756], ndcg=[0.22430	0.28733	0.39550], test_loss=1496.35045
+
+
+ Epoch 549 [time=0.8s + 18.0s]:
+ train:total_loss=8065.74702, embed_loss=8056.20581, reg_loss=9.54104 
+test: precision=[0.13286	0.10602	0.09677], recall=[0.09298	0.15084	0.26801], ndcg=[0.22532	0.28853	0.39626], test_loss=1496.27879
+
+
+ Epoch 559 [time=0.8s + 18.0s]:
+ train:total_loss=7940.13646, embed_loss=7930.59598, reg_loss=9.54072 
+test: precision=[0.13441	0.10618	0.09696], recall=[0.09458	0.15109	0.26830], ndcg=[0.22749	0.28922	0.39702], test_loss=1496.20987
+
+
+ Epoch 569 [time=0.8s + 18.2s]:
+ train:total_loss=7793.18912, embed_loss=7783.64871, reg_loss=9.54043 
+test: precision=[0.13481	0.10636	0.09702], recall=[0.09485	0.15130	0.26848], ndcg=[0.22853	0.29025	0.39790], test_loss=1496.13550
+
+
+ Epoch 579 [time=0.8s + 18.0s]:
+ train:total_loss=8054.37587, embed_loss=8044.83549, reg_loss=9.54017 
+test: precision=[0.13521	0.10669	0.09712], recall=[0.09521	0.15175	0.26860], ndcg=[0.22936	0.29104	0.39833], test_loss=1496.08994
+
+
+ Epoch 589 [time=0.8s + 19.1s]:
+ train:total_loss=7982.94284, embed_loss=7973.40324, reg_loss=9.53993 
+test: precision=[0.13553	0.10685	0.09720], recall=[0.09551	0.15196	0.26878], ndcg=[0.22992	0.29146	0.39876], test_loss=1496.02267
+
+
+ Epoch 599 [time=0.8s + 18.4s]:
+ train:total_loss=7814.53712, embed_loss=7804.99760, reg_loss=9.53972 
+test: precision=[0.13648	0.10697	0.09726], recall=[0.09633	0.15204	0.26891], ndcg=[0.23082	0.29139	0.39871], test_loss=1495.97258
+
+
+ Epoch 609 [time=0.8s + 18.7s]:
+ train:total_loss=7955.97847, embed_loss=7946.43895, reg_loss=9.53953 
+test: precision=[0.13740	0.10707	0.09729], recall=[0.09717	0.15220	0.26894], ndcg=[0.23207	0.29189	0.39909], test_loss=1495.93555
+
+
+ Epoch 619 [time=0.8s + 18.6s]:
+ train:total_loss=8144.76802, embed_loss=8135.22850, reg_loss=9.53936 
+test: precision=[0.13744	0.10719	0.09766], recall=[0.09720	0.15231	0.26990], ndcg=[0.23187	0.29172	0.39940], test_loss=1495.93280
+
+
+ Epoch 629 [time=0.8s + 19.0s]:
+ train:total_loss=7861.25494, embed_loss=7851.71555, reg_loss=9.53920 
+test: precision=[0.13752	0.10727	0.09780], recall=[0.09723	0.15241	0.27018], ndcg=[0.23194	0.29176	0.39951], test_loss=1495.88899
+
+
+ Epoch 639 [time=0.8s + 18.4s]:
+ train:total_loss=8067.61671, embed_loss=8058.07799, reg_loss=9.53907 
+test: precision=[0.13768	0.10793	0.09793], recall=[0.09732	0.15321	0.27077], ndcg=[0.23240	0.29297	0.40003], test_loss=1495.85493
+
+
+ Epoch 649 [time=0.7s + 18.7s]:
+ train:total_loss=7890.21609, embed_loss=7880.67738, reg_loss=9.53894 
+test: precision=[0.13764	0.10799	0.09795], recall=[0.09729	0.15321	0.27094], ndcg=[0.23253	0.29329	0.40031], test_loss=1495.82001
+
+
+ Epoch 659 [time=0.8s + 17.7s]:
+ train:total_loss=8040.20117, embed_loss=8030.66254, reg_loss=9.53883 
+test: precision=[0.13776	0.10813	0.09798], recall=[0.09738	0.15342	0.27101], ndcg=[0.23304	0.29387	0.40074], test_loss=1495.81596
+
+
+ Epoch 669 [time=0.8s + 17.7s]:
+ train:total_loss=7925.58430, embed_loss=7916.04567, reg_loss=9.53873 
+test: precision=[0.13780	0.10819	0.09804], recall=[0.09740	0.15356	0.27115], ndcg=[0.23339	0.29430	0.40112], test_loss=1495.78056
+
+
+ Epoch 679 [time=0.8s + 18.2s]:
+ train:total_loss=7859.15717, embed_loss=7849.61853, reg_loss=9.53865 
+test: precision=[0.13776	0.10819	0.09811], recall=[0.09750	0.15356	0.27130], ndcg=[0.23345	0.29437	0.40127], test_loss=1495.74785
+
+
+ Epoch 689 [time=0.8s + 18.6s]:
+ train:total_loss=7903.95598, embed_loss=7894.41734, reg_loss=9.53856 
+test: precision=[0.13808	0.10821	0.09813], recall=[0.09770	0.15359	0.27131], ndcg=[0.23384	0.29444	0.40134], test_loss=1495.74130
+
+
+ Epoch 699 [time=0.8s + 19.1s]:
+ train:total_loss=7894.74451, embed_loss=7885.20587, reg_loss=9.53849 
+test: precision=[0.13816	0.10827	0.09816], recall=[0.09776	0.15369	0.27137], ndcg=[0.23409	0.29470	0.40157], test_loss=1495.72978
+
+
+ Epoch 709 [time=0.8s + 18.2s]:
+ train:total_loss=7864.99907, embed_loss=7855.46045, reg_loss=9.53843 
+test: precision=[0.13823	0.10821	0.09816], recall=[0.09779	0.15357	0.27137], ndcg=[0.23419	0.29466	0.40168], test_loss=1495.70049
+
+
+ Epoch 719 [time=0.8s + 18.0s]:
+ train:total_loss=7893.05247, embed_loss=7883.51392, reg_loss=9.53837 
+test: precision=[0.13819	0.10829	0.09816], recall=[0.09777	0.15371	0.27137], ndcg=[0.23417	0.29482	0.40172], test_loss=1495.69611
+
+
+ Epoch 729 [time=0.8s + 18.5s]:
+ train:total_loss=7898.25737, embed_loss=7888.71880, reg_loss=9.53832 
+test: precision=[0.13831	0.10829	0.09818], recall=[0.09793	0.15371	0.27144], ndcg=[0.23454	0.29495	0.40192], test_loss=1495.69185
+
+
+ Epoch 739 [time=0.8s + 18.5s]:
+ train:total_loss=7835.74667, embed_loss=7826.20818, reg_loss=9.53827 
+test: precision=[0.13843	0.10833	0.09818], recall=[0.09800	0.15374	0.27144], ndcg=[0.23473	0.29504	0.40197], test_loss=1495.67650
+
+
+ Epoch 749 [time=0.8s + 18.3s]:
+ train:total_loss=7864.69090, embed_loss=7855.15234, reg_loss=9.53823 
+test: precision=[0.13867	0.10831	0.09819], recall=[0.09826	0.15373	0.27146], ndcg=[0.23562	0.29561	0.40258], test_loss=1495.67700
+
+
+ Epoch 759 [time=0.8s + 17.9s]:
+ train:total_loss=7623.60092, embed_loss=7614.06245, reg_loss=9.53820 
+test: precision=[0.13875	0.10835	0.09821], recall=[0.09828	0.15378	0.27150], ndcg=[0.23565	0.29561	0.40259], test_loss=1495.66098
+
+
+ Epoch 769 [time=0.8s + 18.3s]:
+ train:total_loss=7999.39145, embed_loss=7989.85362, reg_loss=9.53816 
+test: precision=[0.13875	0.10835	0.09829], recall=[0.09827	0.15378	0.27174], ndcg=[0.23558	0.29562	0.40278], test_loss=1495.65437
+
+
+ Epoch 779 [time=0.8s + 18.1s]:
+ train:total_loss=7693.03336, embed_loss=7683.49550, reg_loss=9.53813 
+test: precision=[0.13879	0.10835	0.09830], recall=[0.09829	0.15378	0.27172], ndcg=[0.23563	0.29564	0.40284], test_loss=1495.65811
+
+
+ Epoch 789 [time=0.8s + 17.8s]:
+ train:total_loss=7915.91235, embed_loss=7906.37450, reg_loss=9.53811 
+test: precision=[0.13875	0.10835	0.09831], recall=[0.09827	0.15378	0.27173], ndcg=[0.23562	0.29567	0.40288], test_loss=1495.64737
+
+
+ Epoch 799 [time=0.8s + 17.9s]:
+ train:total_loss=7995.02579, embed_loss=7985.48798, reg_loss=9.53809 
+test: precision=[0.13875	0.10835	0.09829], recall=[0.09827	0.15378	0.27173], ndcg=[0.23569	0.29575	0.40291], test_loss=1495.63536
+
+
+ Epoch 809 [time=0.8s + 18.2s]:
+ train:total_loss=7957.92325, embed_loss=7948.38541, reg_loss=9.53807 
+test: precision=[0.13875	0.10841	0.09829], recall=[0.09827	0.15381	0.27173], ndcg=[0.23570	0.29582	0.40293], test_loss=1495.63240
+
+
+ Epoch 819 [time=0.8s + 17.6s]:
+ train:total_loss=7901.57028, embed_loss=7892.03244, reg_loss=9.53805 
+test: precision=[0.13891	0.10843	0.09829], recall=[0.09844	0.15388	0.27173], ndcg=[0.23594	0.29589	0.40297], test_loss=1495.63571
+
+
+ Epoch 829 [time=0.8s + 18.0s]:
+ train:total_loss=7862.64639, embed_loss=7853.10849, reg_loss=9.53803 
+test: precision=[0.13895	0.10847	0.09829], recall=[0.09846	0.15395	0.27173], ndcg=[0.23599	0.29594	0.40299], test_loss=1495.62357
+
+
+ Epoch 839 [time=0.8s + 17.7s]:
+ train:total_loss=7759.32140, embed_loss=7749.78351, reg_loss=9.53802 
+test: precision=[0.13899	0.10857	0.09831], recall=[0.09855	0.15405	0.27177], ndcg=[0.23603	0.29606	0.40302], test_loss=1495.62196
+
+
+ Epoch 849 [time=0.8s + 17.8s]:
+ train:total_loss=7892.89671, embed_loss=7883.35886, reg_loss=9.53801 
+test: precision=[0.13899	0.10857	0.09831], recall=[0.09855	0.15405	0.27177], ndcg=[0.23603	0.29606	0.40304], test_loss=1495.62198
+
+
+ Epoch 859 [time=0.8s + 17.8s]:
+ train:total_loss=7709.67546, embed_loss=7700.13756, reg_loss=9.53800 
+test: precision=[0.13899	0.10857	0.09831], recall=[0.09855	0.15405	0.27177], ndcg=[0.23600	0.29602	0.40301], test_loss=1495.61662
+
+
+ Epoch 869 [time=0.8s + 17.9s]:
+ train:total_loss=7856.73192, embed_loss=7847.19409, reg_loss=9.53799 
+test: precision=[0.13899	0.10855	0.09832], recall=[0.09855	0.15403	0.27179], ndcg=[0.23600	0.29596	0.40302], test_loss=1495.61803
+
+
+ Epoch 879 [time=0.8s + 17.6s]:
+ train:total_loss=8067.81052, embed_loss=8058.27269, reg_loss=9.53799 
+test: precision=[0.13899	0.10855	0.09832], recall=[0.09855	0.15403	0.27179], ndcg=[0.23606	0.29602	0.40309], test_loss=1495.61281
+
+
+ Epoch 889 [time=0.8s + 17.7s]:
+ train:total_loss=7870.99265, embed_loss=7861.45482, reg_loss=9.53799 
+test: precision=[0.13899	0.10855	0.09832], recall=[0.09855	0.15403	0.27179], ndcg=[0.23602	0.29598	0.40305], test_loss=1495.61569
+
+
+ Epoch 899 [time=0.8s + 17.4s]:
+ train:total_loss=7877.83160, embed_loss=7868.29373, reg_loss=9.53798 
+test: precision=[0.13899	0.10859	0.09831], recall=[0.09855	0.15406	0.27177], ndcg=[0.23613	0.29615	0.40317], test_loss=1495.61258
+
+
+ Epoch 909 [time=0.8s + 18.2s]:
+ train:total_loss=7837.49393, embed_loss=7827.95604, reg_loss=9.53798 
+test: precision=[0.13899	0.10859	0.09831], recall=[0.09855	0.15406	0.27176], ndcg=[0.23614	0.29617	0.40318], test_loss=1495.61188
+
+
+ Epoch 919 [time=0.8s + 18.2s]:
+ train:total_loss=7773.65968, embed_loss=7764.12181, reg_loss=9.53798 
+test: precision=[0.13899	0.10859	0.09831], recall=[0.09855	0.15406	0.27176], ndcg=[0.23614	0.29617	0.40318], test_loss=1495.61288
+
+
+ Epoch 929 [time=0.8s + 18.0s]:
+ train:total_loss=7837.89177, embed_loss=7828.35390, reg_loss=9.53798 
+test: precision=[0.13899	0.10859	0.09831], recall=[0.09855	0.15406	0.27176], ndcg=[0.23614	0.29617	0.40318], test_loss=1495.61282
+
+
+ Epoch 939 [time=0.8s + 17.8s]:
+ train:total_loss=8053.59021, embed_loss=8044.05240, reg_loss=9.53798 
+test: precision=[0.13899	0.10859	0.09831], recall=[0.09855	0.15406	0.27176], ndcg=[0.23615	0.29618	0.40319], test_loss=1495.60919
+
+
+ Epoch 949 [time=0.8s + 18.2s]:
+ train:total_loss=7877.81187, embed_loss=7868.27403, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.61163
+
+
+ Epoch 959 [time=0.8s + 18.5s]:
+ train:total_loss=7968.49225, embed_loss=7958.95442, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.61078
+
+
+ Epoch 969 [time=0.8s + 18.6s]:
+ train:total_loss=7699.77011, embed_loss=7690.23224, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.61165
+
+
+ Epoch 979 [time=0.8s + 18.3s]:
+ train:total_loss=7967.71582, embed_loss=7958.17798, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.61049
+
+
+ Epoch 989 [time=0.8s + 18.0s]:
+ train:total_loss=7952.72404, embed_loss=7943.18620, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23618	0.29623	0.40321], test_loss=1495.61011
+
+
+ Epoch 999 [time=0.8s + 18.2s]:
+ train:total_loss=7752.12694, embed_loss=7742.58907, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23618	0.29623	0.40321], test_loss=1495.61040
+
+
+ Epoch 1009 [time=0.8s + 18.7s]:
+ train:total_loss=8023.32272, embed_loss=8013.78493, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23618	0.29623	0.40321], test_loss=1495.60921
+
+
+ Epoch 1019 [time=0.8s + 18.3s]:
+ train:total_loss=7883.74971, embed_loss=7874.21190, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23618	0.29623	0.40321], test_loss=1495.60988
+
+
+ Epoch 1029 [time=0.8s + 18.4s]:
+ train:total_loss=7886.11427, embed_loss=7876.57643, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23618	0.29623	0.40321], test_loss=1495.60995
+
+
+ Epoch 1039 [time=0.8s + 18.3s]:
+ train:total_loss=8162.25455, embed_loss=8152.71680, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23618	0.29623	0.40321], test_loss=1495.60988
+
+
+ Epoch 1049 [time=0.8s + 18.7s]:
+ train:total_loss=7911.58720, embed_loss=7902.04935, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23618	0.29623	0.40321], test_loss=1495.60985
+
+
+ Epoch 1059 [time=0.8s + 19.0s]:
+ train:total_loss=7980.51138, embed_loss=7970.97354, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23618	0.29623	0.40321], test_loss=1495.60983
+
+
+ Epoch 1069 [time=0.8s + 18.3s]:
+ train:total_loss=7774.00830, embed_loss=7764.47043, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23618	0.29623	0.40321], test_loss=1495.60977
+
+
+ Epoch 1079 [time=0.8s + 17.7s]:
+ train:total_loss=7966.45064, embed_loss=7956.91283, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23618	0.29623	0.40321], test_loss=1495.60954
+
+
+ Epoch 1089 [time=0.8s + 17.7s]:
+ train:total_loss=7857.27687, embed_loss=7847.73906, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23618	0.29623	0.40321], test_loss=1495.60980
+
+
+ Epoch 1099 [time=0.8s + 17.8s]:
+ train:total_loss=7796.07571, embed_loss=7786.53789, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23618	0.29623	0.40321], test_loss=1495.60989
+
+
+ Epoch 1109 [time=0.7s + 17.9s]:
+ train:total_loss=7717.13542, embed_loss=7707.59750, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23618	0.29623	0.40321], test_loss=1495.60976
+
+
+ Epoch 1119 [time=0.8s + 18.0s]:
+ train:total_loss=7903.71469, embed_loss=7894.17683, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23618	0.29623	0.40321], test_loss=1495.60974
+
+
+ Epoch 1129 [time=0.7s + 18.1s]:
+ train:total_loss=7835.64746, embed_loss=7826.10960, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23618	0.29623	0.40321], test_loss=1495.60970
+
+
+ Epoch 1139 [time=0.8s + 17.8s]:
+ train:total_loss=7961.37088, embed_loss=7951.83304, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23618	0.29623	0.40321], test_loss=1495.60968
+
+
+ Epoch 1149 [time=0.8s + 18.0s]:
+ train:total_loss=7766.37851, embed_loss=7756.84065, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23618	0.29623	0.40321], test_loss=1495.60977
+
+
+ Epoch 1159 [time=0.8s + 17.7s]:
+ train:total_loss=7920.52689, embed_loss=7910.98907, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23618	0.29623	0.40321], test_loss=1495.60974
+
+
+ Epoch 1169 [time=0.8s + 18.0s]:
+ train:total_loss=7840.40363, embed_loss=7830.86578, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60968
+
+
+ Epoch 1179 [time=0.7s + 17.6s]:
+ train:total_loss=7762.88158, embed_loss=7753.34367, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23618	0.29623	0.40321], test_loss=1495.60974
+
+
+ Epoch 1189 [time=0.8s + 17.3s]:
+ train:total_loss=7737.62141, embed_loss=7728.08356, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60974
+
+
+ Epoch 1199 [time=0.8s + 17.7s]:
+ train:total_loss=7950.38405, embed_loss=7940.84624, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60974
+
+
+ Epoch 1209 [time=0.8s + 17.5s]:
+ train:total_loss=8022.77863, embed_loss=8013.24075, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60980
+
+
+ Epoch 1219 [time=0.8s + 17.7s]:
+ train:total_loss=8131.17996, embed_loss=8121.64218, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60974
+
+
+ Epoch 1229 [time=0.8s + 18.5s]:
+ train:total_loss=8088.52357, embed_loss=8078.98578, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60962
+
+
+ Epoch 1239 [time=0.8s + 18.5s]:
+ train:total_loss=7864.51790, embed_loss=7854.98007, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60965
+
+
+ Epoch 1249 [time=0.8s + 19.0s]:
+ train:total_loss=7977.29906, embed_loss=7967.76126, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1259 [time=0.8s + 18.0s]:
+ train:total_loss=7895.63182, embed_loss=7886.09395, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60965
+
+
+ Epoch 1269 [time=0.8s + 18.1s]:
+ train:total_loss=7794.40869, embed_loss=7784.87079, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60962
+
+
+ Epoch 1279 [time=0.8s + 18.6s]:
+ train:total_loss=7832.59756, embed_loss=7823.05977, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60966
+
+
+ Epoch 1289 [time=0.8s + 18.3s]:
+ train:total_loss=7845.55501, embed_loss=7836.01714, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1299 [time=0.8s + 17.9s]:
+ train:total_loss=7884.27524, embed_loss=7874.73740, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60968
+
+
+ Epoch 1309 [time=0.8s + 18.5s]:
+ train:total_loss=7893.61563, embed_loss=7884.07780, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1319 [time=0.8s + 18.3s]:
+ train:total_loss=7691.38741, embed_loss=7681.84953, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1329 [time=0.8s + 18.4s]:
+ train:total_loss=7847.75574, embed_loss=7838.21786, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1339 [time=0.8s + 18.5s]:
+ train:total_loss=7870.95746, embed_loss=7861.41965, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1349 [time=0.8s + 18.1s]:
+ train:total_loss=7981.96260, embed_loss=7972.42474, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60962
+
+
+ Epoch 1359 [time=0.8s + 18.3s]:
+ train:total_loss=7955.64963, embed_loss=7946.11177, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60962
+
+
+ Epoch 1369 [time=0.8s + 18.4s]:
+ train:total_loss=7995.91626, embed_loss=7986.37842, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60965
+
+
+ Epoch 1379 [time=0.8s + 18.7s]:
+ train:total_loss=7904.95432, embed_loss=7895.41646, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60962
+
+
+ Epoch 1389 [time=0.8s + 18.0s]:
+ train:total_loss=7799.03296, embed_loss=7789.49512, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60965
+
+
+ Epoch 1399 [time=0.8s + 18.0s]:
+ train:total_loss=7983.83931, embed_loss=7974.30151, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1409 [time=0.8s + 18.1s]:
+ train:total_loss=7998.60901, embed_loss=7989.07114, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60962
+
+
+ Epoch 1419 [time=0.8s + 18.3s]:
+ train:total_loss=8115.63239, embed_loss=8106.09459, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1429 [time=0.8s + 17.6s]:
+ train:total_loss=7986.42737, embed_loss=7976.88956, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1439 [time=0.8s + 18.2s]:
+ train:total_loss=8054.88243, embed_loss=8045.34462, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1449 [time=0.7s + 17.5s]:
+ train:total_loss=7963.18829, embed_loss=7953.65047, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1459 [time=0.8s + 18.4s]:
+ train:total_loss=7939.03665, embed_loss=7929.49883, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1469 [time=0.8s + 17.8s]:
+ train:total_loss=8171.22729, embed_loss=8161.68950, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1479 [time=0.7s + 17.8s]:
+ train:total_loss=8111.63124, embed_loss=8102.09343, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1489 [time=0.7s + 18.1s]:
+ train:total_loss=7992.65881, embed_loss=7983.12096, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1499 [time=0.8s + 17.2s]:
+ train:total_loss=7951.65919, embed_loss=7942.12138, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1509 [time=0.8s + 17.7s]:
+ train:total_loss=7846.22380, embed_loss=7836.68593, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60965
+
+
+ Epoch 1519 [time=0.8s + 17.7s]:
+ train:total_loss=7980.85233, embed_loss=7971.31448, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1529 [time=0.8s + 17.6s]:
+ train:total_loss=7880.06096, embed_loss=7870.52307, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1539 [time=0.8s + 18.3s]:
+ train:total_loss=7891.75540, embed_loss=7882.21754, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1549 [time=0.8s + 18.7s]:
+ train:total_loss=7601.15005, embed_loss=7591.61214, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1559 [time=0.7s + 18.3s]:
+ train:total_loss=7814.48180, embed_loss=7804.94389, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1569 [time=0.8s + 19.2s]:
+ train:total_loss=7941.62012, embed_loss=7932.08228, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1579 [time=0.8s + 18.2s]:
+ train:total_loss=7833.15744, embed_loss=7823.61960, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1589 [time=0.8s + 18.3s]:
+ train:total_loss=7775.99518, embed_loss=7766.45735, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1599 [time=0.8s + 18.6s]:
+ train:total_loss=7867.00888, embed_loss=7857.47105, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1609 [time=0.8s + 18.0s]:
+ train:total_loss=7868.79314, embed_loss=7859.25528, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1619 [time=0.7s + 18.5s]:
+ train:total_loss=8015.28062, embed_loss=8005.74277, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1629 [time=0.8s + 19.1s]:
+ train:total_loss=7875.18965, embed_loss=7865.65178, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1639 [time=0.7s + 18.7s]:
+ train:total_loss=7844.70448, embed_loss=7835.16663, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1649 [time=0.8s + 18.7s]:
+ train:total_loss=7797.16891, embed_loss=7787.63104, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1659 [time=0.8s + 18.8s]:
+ train:total_loss=7908.39917, embed_loss=7898.86131, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1669 [time=0.8s + 19.0s]:
+ train:total_loss=8074.79506, embed_loss=8065.25725, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1679 [time=0.7s + 18.8s]:
+ train:total_loss=7992.11177, embed_loss=7982.57396, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1689 [time=0.8s + 18.7s]:
+ train:total_loss=7975.41992, embed_loss=7965.88208, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1699 [time=0.8s + 18.6s]:
+ train:total_loss=7944.94843, embed_loss=7935.41057, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1709 [time=0.8s + 17.6s]:
+ train:total_loss=7911.97845, embed_loss=7902.44060, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1719 [time=0.8s + 18.1s]:
+ train:total_loss=7837.64468, embed_loss=7828.10681, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1729 [time=0.8s + 17.8s]:
+ train:total_loss=7935.34993, embed_loss=7925.81209, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1739 [time=0.8s + 17.9s]:
+ train:total_loss=7948.96680, embed_loss=7939.42894, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1749 [time=0.8s + 17.8s]:
+ train:total_loss=7948.88782, embed_loss=7939.34996, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1759 [time=0.8s + 17.9s]:
+ train:total_loss=7806.41357, embed_loss=7796.87573, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1769 [time=0.8s + 18.1s]:
+ train:total_loss=7886.46013, embed_loss=7876.92229, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1779 [time=0.8s + 17.7s]:
+ train:total_loss=7995.82118, embed_loss=7986.28331, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1789 [time=0.8s + 17.6s]:
+ train:total_loss=7963.54665, embed_loss=7954.00883, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1799 [time=0.8s + 17.6s]:
+ train:total_loss=7931.83130, embed_loss=7922.29346, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1809 [time=0.8s + 17.6s]:
+ train:total_loss=7739.94225, embed_loss=7730.40434, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1819 [time=0.8s + 17.8s]:
+ train:total_loss=7908.03911, embed_loss=7898.50127, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1829 [time=0.8s + 17.8s]:
+ train:total_loss=7805.22392, embed_loss=7795.68608, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1839 [time=0.8s + 17.7s]:
+ train:total_loss=7962.96516, embed_loss=7953.42735, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1849 [time=0.8s + 17.6s]:
+ train:total_loss=8229.42706, embed_loss=8219.88928, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1859 [time=0.8s + 18.5s]:
+ train:total_loss=7914.56299, embed_loss=7905.02510, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1869 [time=0.8s + 18.2s]:
+ train:total_loss=8034.97253, embed_loss=8025.43475, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1879 [time=0.8s + 18.2s]:
+ train:total_loss=7894.99425, embed_loss=7885.45644, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1889 [time=0.8s + 18.1s]:
+ train:total_loss=7933.12488, embed_loss=7923.58707, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1899 [time=0.8s + 18.4s]:
+ train:total_loss=7952.35831, embed_loss=7942.82051, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1909 [time=0.8s + 18.3s]:
+ train:total_loss=7934.68253, embed_loss=7925.14470, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1919 [time=0.7s + 18.4s]:
+ train:total_loss=7922.30789, embed_loss=7912.77005, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1929 [time=0.8s + 18.8s]:
+ train:total_loss=7960.81564, embed_loss=7951.27779, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1939 [time=0.8s + 18.8s]:
+ train:total_loss=7901.33382, embed_loss=7891.79599, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1949 [time=0.8s + 18.4s]:
+ train:total_loss=7821.41933, embed_loss=7811.88148, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1959 [time=0.7s + 18.5s]:
+ train:total_loss=8037.06218, embed_loss=8027.52434, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1969 [time=0.8s + 18.5s]:
+ train:total_loss=7925.30705, embed_loss=7915.76923, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1979 [time=0.8s + 18.5s]:
+ train:total_loss=7898.48512, embed_loss=7888.94722, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1989 [time=0.8s + 18.8s]:
+ train:total_loss=8019.62032, embed_loss=8010.08250, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Epoch 1999 [time=0.8s + 18.4s]:
+ train:total_loss=8030.99127, embed_loss=8021.45345, reg_loss=9.53797 
+test: precision=[0.13899	0.10861	0.09831], recall=[0.09855	0.15408	0.27176], ndcg=[0.23615	0.29620	0.40319], test_loss=1495.60963
+
+
+ Best Iter (Epoch 83):
+ total_time: 5228.9s 
+ recalls=[0.09855	0.15405	0.27177], precisions=[0.13899	0.10857	0.09831],ndcgs=[0.23603	0.29606	0.40302]
+
+ 

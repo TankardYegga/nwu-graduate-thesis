@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/exp/SMGCN/SMGCN/data/bipar_gcn/checkpoints/0.0002-2000-[7e-3]/best_perf_checkpoint.ckpt-1999"
+all_model_checkpoint_paths: "/home/exp/SMGCN/SMGCN/data/bipar_gcn/checkpoints/0.0002-2000-[7e-3]/best_perf_checkpoint.ckpt-1999"
